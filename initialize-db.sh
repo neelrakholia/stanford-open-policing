@@ -1,5 +1,5 @@
 #!/bin/bash
-path_to_data="/Users/i860590/Documents/stanford-open-policing/data"
+path_to_data="$(pwd)/data"
 
 # create database
 db_name=stanford-open-police
