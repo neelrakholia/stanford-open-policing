@@ -11,3 +11,4 @@ gzip -d ./data/*
 
 # download county data
 curl -o ./data/county-pop.csv https://www2.census.gov/programs-surveys/popest/datasets/2010-2015/counties/asrh/cc-est2015-alldata.csv
+iconv -f ascii -t utf-8//IGNORE data/county-pop.csv > data/county-pop-utf-8.csv
